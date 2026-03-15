@@ -1,7 +1,7 @@
 # Group Members:
 Marjorie Mellan Ragot
-Eloisa Dequina
-Alleriza Jamsuli
+/lnEloisa Dequina
+/lnAlleriza Jamsuli
 
 # Program Details
 MO-IT101 Computer-Programming-1 / Group 2
