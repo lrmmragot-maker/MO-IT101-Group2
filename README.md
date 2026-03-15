@@ -19,4 +19,4 @@ All results are shown in the program, including employee details, hours worked, 
 
 
 # Project Plan Link
-(link of project plan)
+https://docs.google.com/spreadsheets/d/1wMrqdwbY55aBUyFOq3Vn_z-dY54FcsjQDb8lEHZtsPc/edit?usp=sharing
