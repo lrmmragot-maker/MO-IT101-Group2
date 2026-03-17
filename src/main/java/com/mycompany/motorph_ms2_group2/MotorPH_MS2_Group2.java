@@ -3,18 +3,17 @@
  */
 
 package com.mycompany.motorph_ms2_group2;
-import java.util.Scanner;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.nio.file.Paths;
+import java.time.Duration;
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.Month;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import java.io.*;
-import java.time.*;
-import java.time.format.DateTimeFormatter;
-import java.util.*;
 /**
  *
  * @author allerizajamsuli
