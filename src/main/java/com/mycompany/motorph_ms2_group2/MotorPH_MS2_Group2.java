@@ -26,10 +26,10 @@ public class MotorPH_MS2_Group2 {
     // The program reads these files to find and display employee details.
     // Declared 'static final' to keep paths constant during execution.
     private static final String Employee_CSV =
-"/Users/allerizajamsuli/NetBeansProjects/MotorPH_MS2_Group2/resources/MotorPH_Employee Data - Employee Details.csv";
+"/Users/Lois/NetBeansProjects/MO-IT101-Group2/resources/MotorPH_Employee Data - Employee Details.csv";
 
 private static final String Attendance_CSV =
-"/Users/allerizajamsuli/NetBeansProjects/MotorPH_MS2_Group2/resources/MotorPH_Employee Data - Attendance Record.csv";
+"/Users/Lois/NetBeansProjects/MO-IT101-Group2/resources/MotorPH_Employee Data - Attendance Record.csv";
     
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -41,6 +41,8 @@ private static final String Attendance_CSV =
         // and directs them to the appropriate menu if login is successful.
         
         // Ask the user to enter their username
+        
+        System.out.println("==================================");
         System.out.print("Enter Username: ");
         String username= input.nextLine();
         
@@ -52,8 +54,8 @@ private static final String Attendance_CSV =
        // Only "employee" or "payroll_staff" with password "12345" are allowed
         if (!(username.equals("employee") || username.equals("payroll_staff")) || !password.equals("12345")) {
             // If credentials are incorrect, show message and terminate program
-            System.out.println("Incorrect username and/or password.");
-            System.out.println("Program terminated.");
+            System.out.println("\nIncorrect username and/or password.");
+            System.out.println("\nProgram terminated.");
             input.close(); // close the Scanner to free resources
             return; // exit from the method
         }
@@ -81,10 +83,11 @@ private static final String Attendance_CSV =
     public static void employeeMenu(Scanner input, String employeeFile) {
         
         // Display the employee menu options
+        System.out.println("==================================");
         System.out.println("\nEmployee Menu");
         System.out.println("1. Enter your employee number");
         System.out.println("2. Exit");
-        System.out.print("Choose option: ");
+        System.out.print("\nChoose option: ");
         
         // Get the user's menu choice
         int choice = input.nextInt();
@@ -93,7 +96,8 @@ private static final String Attendance_CSV =
         if (choice == 1) {
             
             // Ask the user to enter their employee number
-            System.out.print("Enter your employee number: ");
+            System.out.println("\n==================================");
+            System.out.print("\nEnter your employee number: ");
             String empNumber = input.nextLine();
             
             // Retrieve employee data from the file
@@ -105,17 +109,19 @@ private static final String Attendance_CSV =
         } else {
             
             // Display employee details if found
-            System.out.println("\nEmployee Details:");
+            System.out.println("\n==================================");
+            System.out.println("Employee Details:");
             // empData[0] -> Employee Number
             System.out.println("Employee #: " + empData[0]);
             // empData[1] -> Last Name, empData[2] -> First Name
             System.out.println("Employee Name: " + empData[2] + " " + empData[1]);
             // empData[3] -> Birthday
             System.out.println("Birthday: " + empData[3]);
+            System.out.println("==================================");
             }
         } else {
             // If user chooses any other option, exit program
-            System.out.println("Program terminated.");
+            System.out.println("\nProgram terminated.");
         }
     }
     
@@ -154,10 +160,11 @@ private static final String Attendance_CSV =
     public static void payrollStaffMenu(Scanner input, String employeeFile, String attendanceFile) {
         
         // Display main payroll menu options
+        System.out.println("\n==================================");
         System.out.println("\nPayroll Menu");
         System.out.println("1. Process Payroll");
         System.out.println("2. Exit");
-        System.out.print("Choose option: ");
+        System.out.print("\nChoose option: ");
         int payrollChoice = input.nextInt();
         input.nextLine(); // consume newline
         
@@ -165,13 +172,15 @@ private static final String Attendance_CSV =
         if (payrollChoice == 1) {
             
             // Show sub-menu for payroll processing options
+            System.out.println("\n==================================");
             System.out.println("\nProcess Payroll");
-            System.out.println("1. One employee");
+            System.out.println("\n1. One employee");
             System.out.println("2. All employees");
             System.out.println("3. Exit");
+            System.out.println("\n==================================");
             
             // Ask user to choose an option
-            System.out.print("Choose option: ");
+            System.out.print("\nChoose option: ");
             int option = input.nextInt();
             input.nextLine(); // consume newline
             
@@ -179,7 +188,7 @@ private static final String Attendance_CSV =
             if (option == 1) {
                 
                 // Ask for employee number
-                System.out.print("Enter employee number: ");
+                System.out.print("\nEnter employee number: ");
                 String empNumber = input.nextLine();
                 
                 // Call method to process payroll for one employee
