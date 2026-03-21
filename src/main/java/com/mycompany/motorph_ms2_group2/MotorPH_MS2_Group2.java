@@ -331,12 +331,20 @@ private static final String Attendance_CSV =
             double gross2 = hoursDecimal2 * hourlyRate; // Gross pay for second cutoff
 
             // Calculate mandatory deductions for second cutoff
-            double sss = computeSSS(gross2);
-            double philHealth = computePH(gross2);
-            double pagibig = computePagibig(gross2);
-            double tax = computeIncomeTax(gross2);
+            double grossTotal = gross1 + gross2;
+
+            // Compute deductions based on TOTAL monthly salary
+            double sss = computeSSS(grossTotal);
+            double philHealth = computePH(grossTotal);
+            double pagibig = computePagibig(grossTotal);
+            double tax = computeIncomeTax(grossTotal);
+
+            // Total deductions
             double totalDeductions = sss + philHealth + pagibig + tax;
-            double net2 = gross2 - totalDeductions; // Net salary after deductions
+
+            // Final net salary for the whole month
+            double gross3 = grossTotal - totalDeductions;
+            
 
             // Display second cutoff payroll info
             System.out.println("Cutoff Date: " + monthName + " 16 to " + monthName + " " + monthEnum.length(LocalDate.now().isLeapYear()));
@@ -348,7 +356,7 @@ private static final String Attendance_CSV =
             System.out.println("Pag-IBIG: ₱" + String.format("%.2f", pagibig));
             System.out.println("Tax: ₱" + String.format("%.2f", tax));
             System.out.println("Total Deductions: ₱" + String.format("%.2f", totalDeductions));
-            System.out.println("Net Salary: ₱" + String.format("%.2f", net2));
+            System.out.println("Final Net Salary: ₱" + String.format("%.2f", gross3));
             System.out.println("--------------------------------");
         }
         
@@ -443,7 +451,7 @@ private static final String Attendance_CSV =
     public static String formatMinutesToTime(long totalMinutes) {
         long hours = totalMinutes / 60;
         long minutes = totalMinutes % 60;
-        return String.format("%02d:%02d", hours, minutes);
+        return String.format("%d:%02d", hours, minutes);
     }
     
     // ===========================
