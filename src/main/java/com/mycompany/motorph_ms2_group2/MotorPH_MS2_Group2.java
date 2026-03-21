@@ -26,10 +26,10 @@ public class MotorPH_MS2_Group2 {
     // CSV file paths
     // ===========================
     private static final String Employee_CSV =
-            "/Users/Lois/NetBeansProjects/MO-IT101-Group2/resources/MotorPH_Employee Data - Employee Details.csv";
+            "resources/MotorPH_Employee Data - Employee Details.csv";
 
     private static final String Attendance_CSV =
-            "/Users/Lois/NetBeansProjects/MO-IT101-Group2/resources/MotorPH_Employee Data - Attendance Record.csv";
+            "resources/MotorPH_Employee Data - Attendance Record.csv";
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
