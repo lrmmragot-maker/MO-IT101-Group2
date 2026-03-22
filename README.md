@@ -33,17 +33,28 @@ All results are shown in the program, including employee details, hours worked, 
 |employee|12345|employee details|
 |payroll_staff|12345|process payroll|
 
-- **Employee Lookup:** Enter employee credentials to fetch details.
-- **Payroll Staff Access:** Use payroll staff credentials for administrative lookup.
-- **Hours Worked Calculation:** Input time logs to compute total hours.
-- **Gross & Net Salary:** System automatically calculates salary, deductions, and contributions (SSS, PhilHealth, Pag-IBIG, Tax).
+- **Employee Lookup:** 
+- **Payroll Staff Access:** 
+- **Hours Worked Calculation:**
+- **Gross & Net Salary:** 
 
 ## **Features**
 
 - **Employee Lookup**
     - Access employee records using individual credentials.
+ - **Payroll Staff Access:**
     - Payroll staff can perform administrative lookups with staff credentials.
- 
+- **Work Hours Calculation**
+    - Track and compute total hours worked based on time logs which also considers the company’s office hours and allows a 10-minute grace period for late arrivals.
+    - Includes debugging for accuracy.
+- **Gross Salary Computation**
+    - Automatically calculates gross pay from hours worked and rates.
+- **Government Contributions**
+    - Integrated computation for SSS, PhilHealth, Pag-IBIG, and Tax deductions.
+    - Ensures compliance with local regulations.
+- **Net Salary Deductions**
+    - Computes final take-home pay after deductions.
+    - Provides detailed breakdown of contributions and taxes.
   
 # Project Plan Link
 https://docs.google.com/spreadsheets/d/1wMrqdwbY55aBUyFOq3Vn_z-dY54FcsjQDb8lEHZtsPc/edit?usp=sharing
