@@ -2,11 +2,11 @@
 
 # **Team Details**
 
-| **Members** |
-|---------|
-|Eloisa Dequina
-Alleriza Jamsuli
-Marjorie Mellan Ragot
+| **Members** | **Tasks** |
+|---------|-------|
+|Eloisa Dequina|
+|Alleriza Jamsuli| Perform system-wide testing, fix issues, and finalize deployment
+|Marjorie Mellan Ragot| 
 
 ## Program Overview
 
