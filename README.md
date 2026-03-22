@@ -2,9 +2,9 @@
 
 # **Team Details**
 
-| **Members** | **Tasks** |
-|---------|---------|
-|Eloisa Dequina|
+| **Members** |
+|---------|
+|Eloisa Dequina
 Alleriza Jamsuli
 Marjorie Mellan Ragot
 
@@ -38,5 +38,12 @@ All results are shown in the program, including employee details, hours worked, 
 - **Hours Worked Calculation:** Input time logs to compute total hours.
 - **Gross & Net Salary:** System automatically calculates salary, deductions, and contributions (SSS, PhilHealth, Pag-IBIG, Tax).
 
+## **Features**
+
+- **Employee Lookup**
+    - Access employee records using individual credentials.
+    - Payroll staff can perform administrative lookups with staff credentials.
+ 
+  
 # Project Plan Link
 https://docs.google.com/spreadsheets/d/1wMrqdwbY55aBUyFOq3Vn_z-dY54FcsjQDb8lEHZtsPc/edit?usp=sharing
