@@ -26,13 +26,6 @@ All results are shown in the program, including employee details, hours worked, 
 
 ## Usage
 
-**Log in Credentials**
-
-|**Username**|**Password**|**Function**|
-|-------|------|-------|
-|employee|12345|employee details|
-|payroll_staff|12345|process payroll|
-
 - **Employee Lookup**
     - Access employee records using individual credentials.
  - **Payroll Staff Access:**
@@ -48,6 +41,13 @@ All results are shown in the program, including employee details, hours worked, 
 - **Net Salary Deductions**
     - Computes final take-home pay after deductions.
     - Provides detailed breakdown of contributions and taxes.
+ 
+  **Log in Credentials**
+
+|**Username**|**Password**|**Function**|
+|-------|------|-------|
+|employee|12345|employee details|
+|payroll_staff|12345|process payroll|
  
 ## **Key Features**
     - Employee and payroll staff lookup
