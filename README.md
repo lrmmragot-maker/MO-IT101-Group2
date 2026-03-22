@@ -2,9 +2,9 @@
 
 # **Team Details**
 
-| **Members** | Task |
-|---------|
-Eloisa Dequina
+| **Members** | **Task** |
+|---------|---------|
+|Eloisa Dequina|
 Alleriza Jamsuli
 Marjorie Mellan Ragot
 
