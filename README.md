@@ -31,9 +31,10 @@ All results are shown in the program, including employee details, hours worked, 
 **Hours Worked Calculation:** Input time logs to compute total hours.
 **Gross & Net Salary:** System automatically calculates salary, deductions, and contributions (SSS, PhilHealth, Pag-IBIG, Tax).
 
-|Log in Credentials|
-|-------|------|
-|**Username**|**Password**|
+Log in Credentials
+
+|**Username**|**Password**|**Function**|
+|-------|------|-------|
 |employee|12345|employee details|
 |payroll_staff|12345|process payroll|
 
