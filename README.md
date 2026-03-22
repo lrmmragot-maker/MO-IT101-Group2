@@ -50,6 +50,7 @@ All results are shown in the program, including employee details, hours worked, 
 |payroll_staff|12345|process payroll|
  
 ## **Key Features**
+
     - Employee and payroll staff lookup
     - Hours worked calculation & debugging
     - Gross salary computation & debugging
