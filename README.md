@@ -4,9 +4,9 @@
 
 | **Members** | **Tasks** |
 |---------|-------|
-|Eloisa Dequina|
-|Alleriza Jamsuli| Perform system-wide testing, fix issues, and finalize deployment
-|Marjorie Mellan Ragot| 
+|Eloisa Dequina| Manages employee lookup and brainstorming, handles hours worked and gross salary calculations with debugging, and oversees government contributions, net salary computation, system‑wide testing, and final deployment.
+|Alleriza Jamsuli| Manages employee lookup and brainstorming, handles hours worked and gross salary calculations with debugging, and oversees government contributions, net salary computation, system‑wide testing, and final deployment.
+|Marjorie Mellan Ragot| Manages employee lookup and brainstorming, handles hours worked and gross salary calculations with debugging, and oversees government contributions, net salary computation, system‑wide testing, and final deployment.
 
 ## Program Overview
 
