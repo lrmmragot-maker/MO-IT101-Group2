@@ -33,11 +33,6 @@ All results are shown in the program, including employee details, hours worked, 
 |employee|12345|employee details|
 |payroll_staff|12345|process payroll|
 
-- **Employee Lookup:** 
-- **Payroll Staff Access:** 
-- **Hours Worked Calculation:**
-- **Gross & Net Salary:** 
-
 ## **Features**
 
 - **Employee Lookup**
