@@ -2,11 +2,15 @@
 
 # **Team Details**
 
-| **Members** | **Task** |
+| **Members** | **Tasks** |
 |---------|---------|
 |Eloisa Dequina|
 Alleriza Jamsuli
 Marjorie Mellan Ragot
+
+## Program Overview
+
+This program centers on building and finalizing MotorPH’s payroll system by developing employee lookup, calculating work hours, gross and net salaries, integrating government contributions, and completing thorough testing and debugging.
 
 # **MotorPH Payroll System**
 
