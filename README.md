@@ -24,5 +24,19 @@ Government deductions such as SSS, PhilHealth, Pag-IBIG, and withholding tax are
 
 All results are shown in the program, including employee details, hours worked, gross salary, deductions, and net pay.
 
+## Usage
+
+**Employee Lookup:** Enter employee credentials to fetch details.
+**Payroll Staff Access:** Use payroll staff credentials for administrative lookup.
+**Hours Worked Calculation:** Input time logs to compute total hours.
+**Gross & Net Salary:** System automatically calculates salary, deductions, and contributions (SSS, PhilHealth, Pag-IBIG, Tax).
+
+|Log in Credentials|
+|-------|------|
+|**Username**|**Password**|
+|employee|12345|employee details|
+|payroll_staff|12345|process payroll|
+
+
 # Project Plan Link
 https://docs.google.com/spreadsheets/d/1wMrqdwbY55aBUyFOq3Vn_z-dY54FcsjQDb8lEHZtsPc/edit?usp=sharing
