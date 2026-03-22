@@ -2,7 +2,7 @@
 
 # **Team Details**
 
-| **Team Members** |
+| **Members** | Task |
 |---------|
 Eloisa Dequina
 Alleriza Jamsuli
