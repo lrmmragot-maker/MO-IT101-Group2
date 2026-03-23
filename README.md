@@ -6,7 +6,7 @@
 |---------|-------|
 |Eloisa Dequina| Employee & Salary Management; Perform debugging of salary-related processes.
 |Alleriza Jamsuli| System Testing & Deployment; Conduct system-wide testing for reliability.
-|Marjorie Mellan Ragot| 
+|Marjorie Mellan Ragot| Responsible for creating and maintaining the README file.
 
 ## Program Overview
 
