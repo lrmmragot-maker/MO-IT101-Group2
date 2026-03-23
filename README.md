@@ -4,9 +4,9 @@
 
 | **Members** | **Tasks** |
 |---------|-------|
-|Eloisa Dequina| Manages employee lookup and brainstorming, handles hours worked and gross salary calculations with debugging, and oversees government contributions, net salary computation, system‑wide testing, and final deployment.
-|Alleriza Jamsuli| Manages employee lookup and brainstorming, handles hours worked and gross salary calculations with debugging, and oversees government contributions, net salary computation, system‑wide testing, and final deployment.
-|Marjorie Mellan Ragot| Manages employee lookup and brainstorming, handles hours worked and gross salary calculations with debugging, and oversees government contributions, net salary computation, system‑wide testing, and final deployment.
+|Eloisa Dequina| Employee & Salary Management; Perform debugging of salary-related processes.
+|Alleriza Jamsuli| System Testing & Deployment; Conduct system-wide testing for reliability.
+|Marjorie Mellan Ragot| 
 
 ## Program Overview
 
